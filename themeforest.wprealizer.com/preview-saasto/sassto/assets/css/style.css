@@ -47,13 +47,13 @@ Last update : 04/19/2022
   --c-easter-purple: #C06EF3;
   --c-softblue: #7188FF;
   --c-selective-yellow: #FDBA09;
-  --c-light-turquoise: #6DEDC3;
+  --c-light-turquoise: #d8d8d8;
   --text-bright-gray: #535572;
   --text-nevy-blue: #18063C;
-  --text-purple-haze: #494369;
-  --text-purple-haze-700: #494369cc;
-  --text-mid-gray: #5E587A;
-  --text-soft-black: #1C0E0D;
+  --text-purple-haze: #535572;
+  --text-purple-haze-700: #535572;
+  --text-mid-gray: #8e9bae;
+  --text-soft-black: #31374a;
   --text-bright-green: #5BC17F;
   /*font Variable*/
   --ff-poppins: 'Poppins', sans-serif;
