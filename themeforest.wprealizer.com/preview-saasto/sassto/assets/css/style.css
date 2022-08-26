@@ -48,7 +48,7 @@ Last update : 04/19/2022
   --c-softblue: #7188FF;
   --c-selective-yellow: #FDBA09;
   --c-light-turquoise: #6DEDC3;
-  --text-bright-gray: #332C5C;
+  --text-bright-gray: #535572;
   --text-nevy-blue: #18063C;
   --text-purple-haze: #494369;
   --text-purple-haze-700: #494369cc;
@@ -666,7 +666,7 @@ h5 {
   font-family: var(--ff-nunito);
   font-weight: 700;
   font-size: 18px;
-  color: var(--primary-purple);
+  color: #985ee1;
   padding: 13px;
 }
 
@@ -963,12 +963,12 @@ h5 {
   display: inline-block;
   font-weight: 500;
   font-size: 18px;
-  color: #FF553E;
+  color: #f25656;
   padding: 23px 40px;
   background: transparent;
   border-radius: 40px;
   line-height: 28px;
-  border: 1px solid #FF553E;
+  border: 1px solid #f25656;
   font-family: var(--ff-poppins);
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -976,7 +976,7 @@ h5 {
 
 .btn-fill-outlined:hover {
   color: #FF553E;
-  background: #ffd2cc;
+  background: #dee2e7;
 }
 
 /*Preloder CSS*/
@@ -1626,7 +1626,9 @@ header .header-defult {
 
 .single-fact-style-two h2 {
   padding-bottom: 2px;
+  font-size: 40px;
 }
+.single-fact-style-two 
 
 .single-fact-style-two span {
   font-family: var(--ff-inter);
@@ -4479,7 +4481,6 @@ About wrapper end
 .service-card-style .service-card-info .service-card-btn {
   margin-top: 35px;
 }
-
 .service-card-style .service-card-info .service-card-btn a {
   font-weight: 700;
   font-size: 18px;
@@ -4603,3 +4604,18 @@ login/signup style start
 login/signup style end
 ==============================*/
 /*# sourceMappingURL=style.css.map */
+
+
+.target {
+  text-align: center;
+  width: 75%;
+  padding-bottom: 30px;
+}
+
+.download-watch {
+  text-align: left!important;
+  display: flex;
+  margin-top: 10px;
+}
+
+
