@@ -4605,11 +4605,11 @@ login/signup style end
 ==============================*/
 /*# sourceMappingURL=style.css.map */
 
-
 .target {
   text-align: center;
   width: 75%;
   padding-bottom: 30px;
+  color: var(--text-soft-black);
 }
 
 .download-watch {
@@ -4618,4 +4618,11 @@ login/signup style end
   margin-top: 10px;
 }
 
+
+@media (max-width: 400px) {
+  .target{
+    width: 95%;
+    font-size: 45px;
+  }
+}
 
