@@ -9,16 +9,16 @@
 
 @media only screen and (max-width: 1199px) {
   header .header-defult.header-style-three .main-nav ul li ul.sub-menu > li a::before {
-    background: #5bc17f;
+    background: #f25656;
   }
   header .header-defult.header-style-three .hamburger span {
-    background: #5bc17f !important;
+    background: #f25656 !important;
   }
   header .header-defult.header-style-two .main-nav ul li ul.sub-menu > li a::before {
-    background: #5BC17F;
+    background: #f25656;
   }
   header .header-defult.header-style-two .hamburger span {
-    background: #5BC17F !important;
+    background: #f25656 !important;
   }
   header .header-defult .hamburger {
     display: block !important;

@@ -12,5 +12,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(4001, () => {
-  console.log("SWC is running on port 4000");
+  console.log("SWC is running on port 4001");
 });
