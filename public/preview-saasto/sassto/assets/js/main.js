@@ -125,7 +125,7 @@
         roundLengths: true,
         centeredSlides: false,
         autoplay: {
-            delay: 15000,
+            delay: 3000,
         },
         navigation: {
             nextEl: ".blog-next",
