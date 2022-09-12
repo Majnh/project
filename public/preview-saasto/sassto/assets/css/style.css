@@ -4780,11 +4780,12 @@ login/signup style end
         rgba(242, 86, 86, 1) 100%
     );
 }
-.mid-footer{
+.mid-footer {
     font-size: 22px;
     color: #ff553e;
     font-weight: bold;
 }
-.if-text{
+.if-text {
     color: var(--c-white);
+    font-size: 36px;
 }
