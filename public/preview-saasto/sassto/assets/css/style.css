@@ -4785,3 +4785,6 @@ login/signup style end
     color: #ff553e;
     font-weight: bold;
 }
+.if-text{
+    color: var(--c-white);
+}
