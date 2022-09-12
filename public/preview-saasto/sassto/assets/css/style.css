@@ -4016,7 +4016,7 @@ team style end
 }
 
 /*blog card xl*/
-.blog-card-xl:hover .blog-thumb img {
+.blog-card-xl:hover .blog-thumb video {
     -webkit-transform: scale(1.04);
     transform: scale(1.04);
 }
@@ -4030,7 +4030,7 @@ team style end
     overflow: hidden;
 }
 
-.blog-card-xl .blog-thumb img {
+.blog-card-xl .blog-thumb video {
     width: 100%;
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
