@@ -1380,13 +1380,14 @@ header .header-defult {
 }
 
 .hero-style-two {
-    background: url("../images/hero/hero-bg-2.png"),
+    /* background: url("../images/hero/hero-bg-2.png"),
         -webkit-gradient(linear, left top, left bottom, color-stop(100%, #fff8f2), to(#fff8f2));
     background: url("../images/hero/hero-bg-2.png"),
-        linear-gradient(#fff8f2 100%, #fff8f2 100%);
+        linear-gradient(#fff8f2 100%, #fff8f2 100%); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url("../video/banner.mp4");
 }
 
 .hero-style-two .hero-mobil-screen {
@@ -1703,9 +1704,6 @@ header .header-defult {
 }
 
 .work-feature-card .feature-icon {
-    background: #ffffff;
-    -webkit-box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 25px 40px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
     width: 90px;
     height: 90px;
@@ -3836,8 +3834,8 @@ Contect Wrapper end
 }
 
 .team-card-style-one .team-avater {
-    width: 160px;
-    height: 160px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
@@ -4044,6 +4042,7 @@ team style end
     background-repeat: no-repeat;
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
+    color: #985ee1;
     background-image: -webkit-gradient(
         linear,
         left top,

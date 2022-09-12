@@ -151,6 +151,23 @@
         <!-- ===============  header area end =============== -->
 
         <div class="hero-style-two-wrapper">
+            <video
+                autoplay
+                muted
+                loop
+                style="
+                    position: fixed;
+                    right: 0;
+                    bottom: 0;
+                    min-width: 100%;
+                    min-height: 100%;
+                "
+            >
+                <source
+                    src="preview-saasto/sassto/assets/video/banner.mp4"
+                    type="video/mp4"
+                />
+            </video>
             <!-- ===============  hero style start =============== -->
             <div class="hero-style-two position-relative z-index-1">
                 <div
@@ -178,7 +195,7 @@
                                     class="position-absolute end-100 hero-floting-img-one anima-trasform-y-1 d-none d-lg-block"
                                 />
                                 <img
-                                    src="preview-saasto/sassto/assets/images/shapes/hero-two-sheet.png"
+                                    src="preview-saasto/sassto/assets/images/nft-bike-1.jpg"
                                     alt=""
                                     class="hero-floting-img-two position-absolute end-0 top-50 d-none d-xl-block low-index fadeInUp wow"
                                 />
@@ -198,13 +215,40 @@
                                     Web3 lifestyle app that integrates Social-Fi
                                     and Game-Fi elements
                                 </p>
-                                <div class="hero-btn">
+                                <div
+                                    class="hero-btn"
+                                    style="
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        gap: 2rem;
+                                    "
+                                >
                                     <a
                                         href="https://t.me/jumpxchat"
                                         class="btn-fill-pill"
                                         target="_blank"
                                         >Join Community <span></span
                                     ></a>
+                                    <a href="#" class="download-btn-outlined">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="28"
+                                            height="28"
+                                            fill="currentColor"
+                                            class="bi bi-google-play"
+                                            viewBox="0 0 16 16"
+                                            style="margin-right: 8px"
+                                        >
+                                            <path
+                                                d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"
+                                            />
+                                        </svg>
+                                        <div>
+                                            <span>GET IT NOW</span>
+                                            <h5>Google Play</h5>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -367,8 +411,9 @@
                         <div class="feature-card-style-four">
                             <div class="feature-icon">
                                 <img
-                                    src="preview-saasto/sassto/assets/images/Icons/swap-icon-g.svg"
+                                    src="preview-saasto/sassto/assets/images/idea.png"
                                     alt=""
+                                    style="width: 69px; height: 69px"
                                 />
                             </div>
                             <div class="feature-disc">
@@ -405,8 +450,9 @@
                         <div class="feature-card-style-four">
                             <div class="feature-icon">
                                 <img
-                                    src="preview-saasto/sassto/assets/images/Icons/wallet-icon-g.svg"
+                                    src="preview-saasto/sassto/assets/images/community.jpg"
                                     alt=""
+                                    style="width: 69px; height: 69px"
                                 />
                             </div>
                             <div class="feature-disc">
@@ -427,7 +473,7 @@
                                     Marketing on Poocoin
                                 </p>
                                 <p class="body-disply-2 text-center">
-                                    Marketing on Poocoin
+                                    DEX Listing - Pancakeswap
                                 </p>
                             </div>
                         </div>
@@ -439,8 +485,9 @@
                         <div class="feature-card-style-four">
                             <div class="feature-icon">
                                 <img
-                                    src="preview-saasto/sassto/assets/images/Icons/paper-plus-icon-g.svg"
+                                    src="preview-saasto/sassto/assets/images/1-04.svg"
                                     alt=""
+                                    style="width: 69px; height: 69px"
                                 />
                             </div>
                             <div class="feature-disc">
@@ -467,8 +514,9 @@
                         <div class="feature-card-style-four">
                             <div class="feature-icon">
                                 <img
-                                    src="preview-saasto/sassto/assets/images/Icons/history-icon-g.svg"
+                                    src="preview-saasto/sassto/assets/images/phase-4.jpg"
                                     alt=""
+                                    style="width: 69px; height: 69px"
                                 />
                             </div>
                             <div class="feature-disc">
@@ -497,10 +545,6 @@
                                 </p>
                                 <p class="body-disply-2 text-center">
                                     More Features Update
-                                </p>
-                                <p class="body-disply-2 text-center">
-                                    Become The 3rd Largest MarketCap
-                                    Cryptocurrency
                                 </p>
                             </div>
                         </div>
@@ -572,7 +616,7 @@
         <!-- ===============  Pricing style end =============== -->
 
         <!-- ===============  partner style start =============== -->
-        <div class="partner-style-one section-gap-xl-top">
+        <!-- <div class="partner-style-one section-gap-xl-top">
             <div class="container-fluid">
                 <div class="row align-items-center gy-4">
                     <div class="col-lg-6 order-1 order-lg-0">
@@ -655,11 +699,117 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- ===============  partner style end =============== -->
 
         <!-- ===============  Testimonial style start =============== -->
+
         <div
+            class="blog-grid-wrapper-two section-gap-xl-top position-relative z-index-1"
+        >
+            <div class="container">
+                <div class="text-center pb-60">
+                    <h2 class="text-soft-black">
+                        Game
+                        <span class="d-inline-block position-relative"
+                            >modes<img
+                                src="preview-saasto/sassto/assets/images/shapes/text-cuntom-underline.svg"
+                                alt=""
+                                class="highlighter-shape position-absolute start-0 bottom-0 low-index"
+                        /></span>
+                    </h2>
+
+                    <p class="body-disply-2 pt-3">Explore Jumpx features</p>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-4">
+                        <div class="blog-card-xl">
+                            <div class="blog-thumb">
+                                <a
+                                    href="https://docs.jumpx.run/gamefi-elements/game-modes"
+                                >
+                                    <video
+                                        style="width: 100%"
+                                        src="preview-saasto/sassto/assets/video/nft-sneakers.mp4"
+                                        autoplay
+                                        muted
+                                        loop
+                                    ></video>
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h4
+                                    class="blog-title"
+                                    style="text-align: center"
+                                >
+                                    <a
+                                        target="_blank"
+                                        href="https://docs.jumpx.run/gamefi-elements/game-modes"
+                                        >Move2Earn
+                                    </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="blog-card-xl">
+                            <div class="blog-thumb">
+                                <a href="blog-details.html">
+                                    <video
+                                        style="width: 100%"
+                                        src="preview-saasto/sassto/assets/video/nft-bikes.mp4"
+                                        autoplay
+                                        muted
+                                        loop
+                                    ></video>
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h4
+                                    class="blog-title"
+                                    style="text-align: center"
+                                >
+                                    <a
+                                        style="text-align: center"
+                                        href="https://docs.jumpx.run/gamefi-elements/game-modes"
+                                        >Ride2Earn
+                                    </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="blog-card-xl">
+                            <div class="blog-thumb">
+                                <a href="blog-details.html">
+                                    <video
+                                        style="width: 100%"
+                                        src="preview-saasto/sassto/assets/video/nft-cars.mp4"
+                                        autoplay
+                                        muted
+                                        loop
+                                    ></video>
+                                </a>
+                            </div>
+                            <div class="blog-info">
+                                <h4
+                                    class="blog-title"
+                                    style="text-align: center"
+                                >
+                                    <a
+                                        style="text-align: center"
+                                        href="https://docs.jumpx.run/gamefi-elements/game-modes"
+                                        >Drive2Earn
+                                    </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div
             class="testimonial-style-two section-gap-xl-top section-gap-xl-bottom"
         >
             <div class="container">
@@ -863,7 +1013,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div
             class="work-feature-style-one position-relative section-gap-xl-top"
@@ -890,8 +1040,9 @@
                                 <div class="work-feature-card wow fadeInUp">
                                     <div class="feature-icon">
                                         <img
-                                            src="preview-saasto/sassto/assets/images/Icons/time-circle.svg"
+                                            src="preview-saasto/sassto/assets/images/2-03.svg"
                                             alt=""
+                                            style="width: 48px; height: 48px"
                                         />
                                     </div>
                                     <div class="feature-info">
@@ -914,8 +1065,9 @@
                                 >
                                     <div class="feature-icon">
                                         <img
-                                            src="preview-saasto/sassto/assets/images/Icons/Chart.svg"
+                                            src="preview-saasto/sassto/assets/images/2-02.svg"
                                             alt=""
+                                            style="width: 48px; height: 48px"
                                         />
                                     </div>
                                     <div class="feature-info">
@@ -939,8 +1091,9 @@
                                 >
                                     <div class="feature-icon">
                                         <img
-                                            src="preview-saasto/sassto/assets/images/Icons/Graph.svg"
+                                            src="preview-saasto/sassto/assets/images/2-01.svg"
                                             alt=""
+                                            style="width: 48px; height: 48px"
                                         />
                                     </div>
                                     <div class="feature-info">
@@ -1063,8 +1216,8 @@
                                 />
                             </div>
                             <div class="team-disc">
-                                <h5>Andree lena</h5>
-                                <p>UI designer</p>
+                                <h5>Brian</h5>
+                                <p>CEO</p>
                             </div>
                         </div>
                     </div>
@@ -1072,13 +1225,13 @@
                         <div class="team-card-style-one">
                             <div class="team-avater">
                                 <img
-                                    src="preview-saasto/sassto/assets/images/team-2.jpg"
+                                    src="preview-saasto/sassto/assets/images/team02.jpg"
                                     alt=""
                                 />
                             </div>
                             <div class="team-disc">
-                                <h5>Mark Busnek</h5>
-                                <p>Product designer</p>
+                                <h5>Jason</h5>
+                                <p>CTO</p>
                             </div>
                         </div>
                     </div>
@@ -1086,13 +1239,13 @@
                         <div class="team-card-style-one">
                             <div class="team-avater">
                                 <img
-                                    src="preview-saasto/sassto/assets/images/team-3"
+                                    src="preview-saasto/sassto/assets/images/team-3.jpg"
                                     alt=""
                                 />
                             </div>
                             <div class="team-disc">
-                                <h5>Kristofer salcot</h5>
-                                <p>Web designer</p>
+                                <h5>Justin</h5>
+                                <p>CMO</p>
                             </div>
                         </div>
                     </div>
@@ -1320,21 +1473,16 @@
                                             class="highlighter-shape position-absolute start-0 bottom-0 low-index"
                                     /></span>
                                 </h2>
-                                <p class="body-disply-2 pt-3">
-                                    We are offering free debit cards once you
-                                    sing up and order a card. we wont chargeyou
-                                    for our debit card.
-                                </p>
                             </div>
 
                             <div class="download-options">
-                                <a href="#" class="download-btn-fill">
+                                <!-- <a href="#" class="download-btn-fill">
                                     <i class="bi bi-apple"></i>
                                     <div>
                                         <span>Download on the</span>
                                         <h5>App Store</h5>
                                     </div>
-                                </a>
+                                </a> -->
                                 <a href="#" class="download-btn-outlined">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
