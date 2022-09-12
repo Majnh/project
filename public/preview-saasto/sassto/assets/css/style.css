@@ -2486,8 +2486,8 @@ header .header-defult {
 
 /*footer style two */
 .footer-style-two {
-    padding-top: 100px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .footer-style-two .footer-quick-links li {
@@ -2525,6 +2525,7 @@ header .header-defult {
     color: #18063c;
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
+    font-size: 18px;
 }
 
 .footer-style-two .footer-social-links li a:hover {
@@ -3838,8 +3839,8 @@ Contect Wrapper end
 }
 
 .team-card-style-one .team-avater {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
