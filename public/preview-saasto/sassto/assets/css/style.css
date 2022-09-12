@@ -1132,7 +1132,7 @@ header .header-defult .main-nav .fl {
     font-size: 20px;
     line-height: 35px;
     text-align: center;
-    color: #2d373c;
+    color: #ff3014;
     font-style: normal;
     position: absolute;
     right: -5px;
@@ -1146,6 +1146,7 @@ header .header-defult .main-nav .fl:before {
     font-size: 14px;
     text-align: center;
     line-height: 35px;
+    color: #ff3014;
 }
 
 header .header-defult .main-nav > ul > li + li > .sub-menu {
@@ -1192,7 +1193,7 @@ header .header-defult .main-nav ul li:last-child {
 }
 
 header .header-defult .main-nav ul li:hover > a {
-    color: var(--primary-purple);
+    color: #ff3014;
 }
 
 header .header-defult .main-nav ul li:hover > a::before {
@@ -1212,7 +1213,7 @@ header .header-defult .main-nav ul li a {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: var(--text-bright-gray);
+    color: #ff553e;
 }
 
 header .header-defult .main-nav ul li ul.sub-menu > li {
@@ -1238,7 +1239,7 @@ header .header-defult .main-nav ul li ul.sub-menu > li a.active {
 
 header .header-defult .main-nav ul li ul.sub-menu > li a:hover {
     background: transparent;
-    color: var(--primary-purple) !important;
+    color: #ff3014 !important;
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
 }
@@ -1250,7 +1251,7 @@ header .header-defult .main-nav ul li ul.sub-menu > li a:hover::before {
 header .header-defult .main-nav ul li.has-child-menu:after {
     position: absolute;
     right: 0;
-    color: var(--text-bright-gray);
+    color: #ff553e;
     font-family: bootstrap-icons !important;
     content: "\f282";
     font-size: 13px;
@@ -2508,7 +2509,7 @@ header .header-defult {
 }
 
 .footer-style-two .footer-quick-links li a:hover {
-    color: #5bc17f;
+    color: #ff553e;
 }
 
 .footer-style-two .footer-social-links li {
@@ -2527,7 +2528,7 @@ header .header-defult {
 }
 
 .footer-style-two .footer-social-links li a:hover {
-    color: #5bc17f;
+    color: #ff553e;
 }
 
 .footer-style-two .footer-bottom {
@@ -3118,7 +3119,7 @@ header .header-defult {
     background: linear-gradient(
         90deg,
         rgba(152, 94, 225, 1) 0%,
-        rgba(255, 208, 208, 1) 35%,
+        rgb(255 208 244) 75%,
         rgba(242, 86, 86, 1) 100%
     );
     background-position: center;
@@ -3837,8 +3838,8 @@ Contect Wrapper end
 }
 
 .team-card-style-one .team-avater {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
@@ -4767,4 +4768,14 @@ login/signup style end
     text-align: left !important;
     display: flex;
     margin-top: 10px;
+}
+
+#roadmap {
+    background: rgb(152, 94, 225);
+    background: linear-gradient(
+        90deg,
+        rgba(152, 94, 225, 1) 0%,
+        rgb(255 208 244) 75%,
+        rgba(242, 86, 86, 1) 100%
+    );
 }
