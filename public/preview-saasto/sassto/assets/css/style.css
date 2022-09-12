@@ -3114,10 +3114,13 @@ header .header-defult {
   15. app download style start
 ==============================*/
 .app-download-style {
-    background: url("../images/shapes/download-app-bg.png"),
-        -webkit-gradient(linear, left top, left bottom, color-stop(100%, #fff8f2), to(#fff8f2));
-    background: url("../images/shapes/download-app-bg.png"),
-        linear-gradient(#fff8f2 100%, #fff8f2 100%);
+    background: rgb(152, 94, 225);
+    background: linear-gradient(
+        90deg,
+        rgba(152, 94, 225, 1) 0%,
+        rgba(255, 208, 208, 1) 35%,
+        rgba(242, 86, 86, 1) 100%
+    );
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
