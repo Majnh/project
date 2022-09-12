@@ -2525,7 +2525,7 @@ header .header-defult {
     color: #18063c;
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .footer-style-two .footer-social-links li a:hover {
