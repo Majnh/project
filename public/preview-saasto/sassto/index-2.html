@@ -165,7 +165,9 @@
                                     </li>
                                     <li><a href="#roadmap">Roadmap</a></li>
                                     <li>
-                                        <a href="https://docs.jumpx.run/"
+                                        <a
+                                            href="https://docs.jumpx.run/"
+                                            target="_blank"
                                             >Document</a
                                         >
                                     </li>
@@ -207,17 +209,33 @@
                     loop
                     style="
                         position: absolute;
-                        right: 0;
-                        bottom: 0;
-                        min-width: 100%;
-                        min-height: 100%;
+                        min-width: 95%;
+                        min-height: 95%;
+                        left: 50%;
+                        top: 50%;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
                     "
+                    id="video-banner"
                 >
                     <source
                         src="preview-saasto/sassto/assets/video/banner.mp4"
                         type="video/mp4"
                     />
                 </video>
+                <img
+                    src="preview-saasto/sassto/assets/images/img-banner.gif"
+                    style="
+                        position: absolute;
+                        min-width: 100%;
+                        min-height: 100%;
+                        left: 50%;
+                        top: 50%;
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                    "
+                    id="img-banner"
+                />
                 <!-- <div
                     class="hero-mobil-screen position-absolute low-index anima-trasform-x-1 d-none d-xl-block"
                 >
@@ -280,45 +298,62 @@
             <!-- ================  hero style end =============== -->
 
             <!-- ===============  fun-fact style start ============ -->
-            <div class="fun-fact-style-two">
-                <div class="fun-fact-overlay"></div>
-                <div class="fun-fact-bg-wrap">
-                    <div class="container">
-                        <h2 class="target">Target</h2>
-                        <div class="row gy-3">
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft"
-                            >
-                                <div class="single-fact-style-two">
-                                    <h2 class="text-soft-black">15 M+</h2>
-                                    <span>DOWNLOADS</span>
-                                </div>
-                            </div>
 
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft"
-                                data-wow-delay="0.3s"
-                            >
-                                <div class="single-fact-style-two">
-                                    <h2 class="text-soft-black">1 M+</h2>
-                                    <span>ACTIVE USERS</span>
-                                </div>
+            <!-- ===============  fun-fact style end =============== -->
+        </div>
+
+        <div class="fun-fact-style-two">
+            <div class="fun-fact-overlay"></div>
+            <div class="fun-fact-bg-wrap">
+                <div class="container">
+                    <h2 class="target">Target</h2>
+                    <div class="row gy-3">
+                        <div class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft">
+                            <div class="single-fact-style-two">
+                                <h2 class="text-soft-black">15 M+</h2>
+                                <span>DOWNLOADS</span>
                             </div>
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft"
-                                data-wow-delay="0.6s"
-                            >
-                                <div class="single-fact-style-two">
-                                    <h2 class="text-soft-black">5.0</h2>
-                                    <span>RATINGS</span>
-                                </div>
+                        </div>
+
+                        <div
+                            class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft"
+                            data-wow-delay="0.3s"
+                        >
+                            <div class="single-fact-style-two">
+                                <h2 class="text-soft-black">1 M+</h2>
+                                <span>ACTIVE USERS</span>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-4 col-sm-6 wow fadeInLeft"
+                            data-wow-delay="0.6s"
+                        >
+                            <div class="single-fact-style-two">
+                                <h2 class="text-soft-black">5.0</h2>
+                                <span>RATINGS</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ===============  fun-fact style end =============== -->
         </div>
+
+        <div
+            class="single-feature-style-two section-gap-xl-top section-gap-xl-bottom"
+            style="text-align: center"
+        >
+            <div style="width: 100%; height: 100%">
+                <iframe
+                    src="https://www.youtube.com/embed/wiFqW1rTRXQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    style="width: 90%; min-height: 630px; max-width: 1120px"
+                ></iframe>
+            </div>
+        </div>
+
         <div
             class="single-feature-style-two section-gap-xl-top section-gap-xl-bottom"
         >
@@ -1142,13 +1177,14 @@
                             class="feature-screen-one fadeInRight wow position-relative"
                         >
                             <img
-                                src="preview-saasto/sassto/assets/images/advance.png"
+                                src="preview-saasto/sassto/assets/images/advance.jpg"
                                 alt=""
                                 class="feature-filter-img"
                                 style="width: 100%"
                             />
                         </div>
                     </div>
+                    ¨¨
                 </div>
             </div>
         </div>
@@ -1525,8 +1561,7 @@
                         <div class="app-download-content-wrap pb-5 pb-lg-0">
                             <div class="text-start pb-5">
                                 <h2 class="if-text">
-                                    If you don’t walk today, you’ll have to run
-                                    tomorrow.
+                                    Make M2E Great Again
                                     <!-- <span
                                         class="z-index-1 d-inline-block position-relative"
                                         >
@@ -1617,7 +1652,8 @@
                                 class="footer-quick-links d-flex justify-content-lg-center flex-wrap"
                             >
                                 <div class="mid-footer">
-                                    Make M2E Great Again
+                                    "If You Don’t Walk Today, You’ll Have To Run
+                                    Tomorrow."
                                 </div>
                             </ul>
                         </div>

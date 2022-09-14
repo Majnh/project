@@ -4782,13 +4782,22 @@ login/signup style end
     );
 }
 .mid-footer {
-    font-size: 22px;
-    color: #ff553e;
-    font-weight: bold;
-    font-family: "Shrikhand", cursive;
+    font-size: 16px;
+    color: #5e587a;
+    /* font-family: "Shrikhand", cursive; */
     text-transform: uppercase;
+    font-style: italic;
 }
 .if-text {
     color: var(--c-white);
-    font-size: 36px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#video-banner {
+    display: block;
+}
+
+#img-banner {
+    display: none;
 }
